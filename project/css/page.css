@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: 楷体;
+    color: rgb(211, 163, 31);
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+.recommed{
+    text-align: center;
+}
+.recommed a{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 宋体;
+    color: #9681dd;
+}
+.nav ul li a,.droplist ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.nav{
+    background: linear-gradient(to right,rgb(247, 172, 188),rgb(171, 238, 247));
+    display: flex;
+    height: 60px;
+}
+.droplist{
+    display: none;
+    background: linear-gradient(to right,rgb(247, 172, 188),rgb(171, 238, 247));
+    position: absolute;
+    float: none;
+    width: 200px;
+}
+li:hover .droplist{
+    display: block;
+}
+ul a{
+    color: white;
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+}
+.nav ul li,.droplist ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.nav ul li:hover,.droplist ul li:hover{
+    background: linear-gradient(to right,#007BA4 , #00d4ff, #ffc600);
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(111, 255, 0);	
+    margin: 85px 0px 0px 40%;
+    float: left;
+    border: none;
+    margin-top: 50px;
+    outline: 0;
+    border-radius: 25px 0px 0px 25px;
+}
+button{
+    display: inline-block;
+    height:40px;
+    margin-top: 50px;
+    border: none;
+}
+button img{
+    height: 40px;
+}
+.input_2{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: blue;	
+    margin: 0px 0px 0px 40%;
+    float: left;
+    border: none;
+}
+.but_2{
+    display: inline-block;
+    height:40px;
+    margin-top: 0px;
+    border: none;
+}
+.search{
+    background-image: url('../img_medicine/15.jpeg');
+    background-size: 500px;
+    background-position:center 700px;
+    height: 300px;
+}
+.buttom{
+    display: block;
+    margin-top: 400px;
+    text-align: center;
+}
+.buttom a{
+    color: #27342b;
+    margin: 0px;
+    font-family: 宋体;
+}
+
+.list_one{
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 5px 20px 10px 1px rgb(0, 0, 0) inset;
+    background-image: url('../img_medicine/11.jpeg');
+    animation:background_1 1.5s linear;
+}
+.list_two{
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: -5px 20px 10px 1px rgb(0, 0, 0) inset;
+    background-image: url('../img_medicine/11.jpeg');
+    animation:background_2 3s linear;
+}
+.list_three{
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 2px 20px 10px 1px rgb(0, 0, 0) inset;
+    background-image: url('../img_medicine/13.jpeg');
+    animation:background_3 5s linear;
+}
+
+.list_one ul,.list_two ul,.list_three ul{   
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.list_one ul li,.list_two ul li,.list_three ul li{
+    text-align: center;
+    margin-top: 10px;
+    width: 184.15px;
+    height: 50px;
+}
+
+.list_one ul li a{
+    margin: 10px 20px;
+    color: #db6a00;
+}
+.list_two ul li a{
+    color: #db6a00;
+}
+.list_three ul li a{
+    color: #db6a00;
+}
+.list_doc{
+    float: left;
+    padding-left: 0px;
+    width: 736.6px;
+}
+.list_book{
+    float: left;
+    width: 737.6px;
+}
+.list_medicine{
+    float: left;
+    width: 100%;
+}
+.list_one p{
+    font-size: 20px;
+    text-indent: 50px;
+    font-family: 楷体;
+    background-image: linear-gradient(to right,#eec913,#e7bfda);
+    height: 35px;
+    padding-top: 7.5px;
+}
+.list_two p{
+    font-size: 20px;
+    text-indent: 50px;
+    font-family: 楷体;
+    background-image: linear-gradient(to left,#eec913,#e7bfda);
+    height: 35px;
+    padding-top: 7.5px;
+}
+.list_three p{
+    font-size: 20px;
+    text-indent: 50px;
+    font-family: 楷体;
+    background-image: linear-gradient(to right,#eec913,#e7bfda);
+    height: 35px;
+    padding-top: 7.5px;
+}
+.list_a{	
+    background: linear-gradient(to right,#007BA4 , #00d4ff, #ffc600);
+    margin-top: 10px;
+    margin-left: 700px;
+}
+.list_a a{
+    font-family: 楷体;
+    color: aquamarine;
+}
+.list_a_a a{
+    margin-left: 1250px;
+    font-family: 楷体;
+    color: rgb(1, 244, 163);
+    font-weight: 700;
+}
+.background{
+    /*透明度*/
+    opacity: 0.8;
+    /* 溢出隐藏 */
+    overflow-x: hidden;
+ 	/* 定义阴影位置 */
+    /*背景*/
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../img_medicine/15.jpeg');
+}
+.home_page a{
+    margin: 0px;
+}
+.home_page a #picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+}
+
+@keyframes background_1{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes background_2{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes background_3{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}

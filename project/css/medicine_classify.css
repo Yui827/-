@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+.nav{
+    background: linear-gradient(to right, rgb(45, 126, 212),rgb(165, 217, 231));
+    display: flex;
+}
+.droplist{
+    display: none;
+    
+    position: absolute;
+    float: none;
+    width: 200px;
+}
+li:hover .droplist{
+    display: block;
+}
+.nav ul li{
+    text-align: center;
+    border-radius: 50%;
+}
+.nav ul li a{
+    color: black;
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+}
+.droplist ul li a{
+    color: black;
+    text-align: center;
+}
+.nav ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.droplist ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    background: radial-gradient(black,rgb(201, 201, 230));
+    border-radius: 50%;
+}
+.nav ul li:hover{
+    background: linear-gradient(to right, rgb(44, 122, 26),rgb(173, 159, 159));
+}
+.droplist ul li:hover{
+    background: linear-gradient(to right, rgb(47, 141, 31),rgb(157, 151, 151));
+}
+.droplist ul li a{
+    text-decoration: none;
+    color: rgba(230, 224, 224, 0.998);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+form{
+    display: inline-block;
+}
+
+.nkbiao{
+    font-size: 13px;
+    font-family: 宋体;
+    margin-top: 15px;
+    justify-content: center;
+    line-height: 20px;
+    text-align: center;
+    font-size: medium;
+}
+.nkbiao a{
+    text-decoration: none;
+    color: #f58220;
+}
+
+.sear_input{
+    height: 20.8px;
+    display: inline-block;
+}
+.sear_buttom{
+    display: block;
+    float: right;
+}
+.sear_input input{
+  
+    border-width: 0px;
+    outline: 0px;
+    height: 20.8px;
+    border-radius: 15px 0px 0px 15px;
+    background: linear-gradient(to right,rgb(247, 172, 188),rgb(171, 238, 247));
+}
+.sear_buttom button{
+    height: 20.8px;
+    outline: 0px;
+    border-style: none;
+    border-radius: 0px 15px 15px 0px;
+    background: linear-gradient(to left,rgb(247, 172, 188),rgb(171, 238, 247));
+}
+
+.box{
+    
+    align-items: center; /*纵轴对齐方式，默认是纵轴 子元素垂直居中*/
+    padding-left: 16px;
+}
+
+.p{
+    background-position: center;
+    background-size: 1500px;
+    background-position: center;
+    background-image: url('../img_medicine/zhaopian10.jpg');
+    animation:background_1 1s linear;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+.medicine{
+    text-align: left;
+}
+
+.back{
+    display: block;
+    background-image: url('../img_medicine/zhaopian5.jpg');
+    background-size: 1600px;
+    background-attachment: fixed;
+    background-position: 50%;
+    animation:background_2 2s linear;
+}
+.no{
+    height: 500px;
+    margin-top: -10px;
+    background-position: center;
+    background-image: url('../img_medicine/zhaopian6.jpg');
+    background-size: 1200px;
+    background-position: center -100px ;
+    background-attachment: fixed;
+    box-shadow: 2px -20px 1px 1px rgb(0, 0, 0) inset;
+    animation:background_3 3s linear;
+}
+
+.page{
+    margin-left: 667.725px;
+    font-size: 15px;
+    font-family: 宋体;
+}
+.page a{
+    text-align: center;
+    background-color: aqua;
+}
+.lo{
+    text-align: center;
+    font-size: medium;
+}
+
+.cle{
+    margin-top: -15px;
+    background-attachment: fixed;
+    background-image: url('../img_medicine/zhongyiyao1.jpg');
+    box-shadow: 2px 2px 1px 1px rgb(0, 0, 0) inset;
+    animation:background_1 4s linear;
+}
+.cle ul{
+    font-weight: 200;
+    font-size: 13px;
+    font-family: 宋体; 
+    padding-top: 20px;
+    padding: 15px;       
+    margin: 15px; 
+}
+.cle ul li{
+    list-style: none;
+    font-weight: 200;
+    font-size: 13px;
+    font-family: 宋体; 
+    padding-top: 20px;
+    padding: 15px;       
+}
+.cle ul li a{
+    color: #f58f98;
+}
+
+.home_page a{
+    margin: 0px;
+}
+.home_page a #picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+}
+
+@keyframes background_1{
+0%{
+    opacity: 0;
+}
+40%{
+    opacity: 0.5;
+}
+80%{
+    opacity: 0.8;
+}
+100%{
+    opacity: 1;
+}
+}
+@keyframes background_2{
+0%{
+    opacity: 0;
+}
+40%{
+    opacity: 0.5;
+}
+80%{
+    opacity: 0.8;
+}
+100%{
+    opacity: 1;
+}
+}
+@keyframes background_3{
+0%{
+    opacity: 0;
+}
+40%{
+    opacity: 0.5;
+}
+80%{
+    opacity: 0.8;
+}
+100%{
+    opacity: 1;
+}
+}

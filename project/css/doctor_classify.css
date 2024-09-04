@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: 楷体;
+    color: cornsilk;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+.recommed{
+    text-align: center;
+}
+.recommed a{
+    color: rgb(187, 100, 237);
+    margin: 0px;
+    font-size: 16px;
+    font-family: 宋体;
+}
+.recommed a:first-child{
+    color: #dfafe4;
+}
+.nav ul li a,.droplist ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.nav{
+    background: linear-gradient(to right,rgb(247, 172, 188),rgb(171, 238, 247));
+    display: flex;
+    height: 60px;
+}
+.droplist{
+    display: none;
+    background: linear-gradient(to right,rgb(247, 172, 188),rgb(171, 238, 247));
+    position: absolute;
+    float: none;
+    width: 200px;
+}
+li:hover .droplist{
+    display: block;
+}
+.droplist ul a{
+    color: white;
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+}
+.nav li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.droplist ul li:hover,.nav ul li:hover{
+    background: linear-gradient(to right,#007BA4 , #00d4ff, #ffc600);
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: #f391a9;	
+    margin: 40px 0px 0px 40%;
+    float: left;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    outline: 0;
+    
+}
+button{
+    display: inline-block;
+    height:40px;
+    margin-top: 40px;
+    border: none;
+}
+button img{
+    height: 40px;
+}
+.input_2{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: #f391a9;	
+    margin: 0px 0px 0px 40%;
+    float: left;
+    border: none;
+}
+.but_2{
+    display: inline-block;
+    height:40px;
+    margin-top: 0px;
+    border: none;
+}
+.search{
+    animation:ground 1.5s linear;
+    background-image: url('../img_medicine/zhao1.jpg');
+    background-size: 1500px;
+    background-position: center -220px;
+    height: 300px;
+    background-attachment: fixed;
+}
+.buttom{
+    display: block;
+    margin-top: 400px;
+    text-align: center;
+    color: #ef4136;
+}
+.buttom a{
+    color: #ef4136;
+    margin: 0px;
+    font-family: 宋体;
+    font-size: 20px;
+} 
+.main ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;	
+    cursor: pointer;
+}
+.main ul li a{
+    color: #ef4136;
+}
+
+.background{
+    background-position: center 80px;
+    
+    background-attachment: fixed;
+    animation:back 3s linear;
+    background-image: url('../img_medicine/zhaopian1.jpg');
+    box-shadow: 5px 20px 10px 1px,-5px 20px 10px 1px rgb(0, 0, 0) inset;
+}
+
+.p{
+    background: linear-gradient(to right,#dde6a5 , #00d4ff, #ffc600);
+    height: 20px;
+}
+.p a{
+    font-family: 楷体;
+    font-size: 20px;
+    color: #f173ac;   
+}
+
+.home_page{
+    height: 60px;
+    width: 60px;
+}
+.home_page a{
+    margin: 0px;
+}
+.home_page a #picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+}
+
+@keyframes ground {
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes back {
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
